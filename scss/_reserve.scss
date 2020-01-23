@@ -1,0 +1,109 @@
+.reserve-wrap {
+    height: 500px;
+    @include sp {
+        height: 200px;
+}
+    @include tab {
+        height: 200px;
+    }
+}
+.shop-name {
+    font-size: 32px;
+    color: #7070704D;
+    padding-top: 100px;
+    padding-left: 150px;
+    @include sp {
+        width: 300px;
+        font-size: 15px;
+        padding-left: 50px;
+        padding-top: 200px;
+    }
+
+}
+.reserve-border {
+    width: 1300px;
+    border-bottom:1px solid #70707036;
+    margin: 0 auto;
+    padding-top: 250px;
+    
+    @include tab {
+        width: 600px;
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+    @include sp {
+        padding-top: 100px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+
+}
+.shop-name-part {
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    height: 34px;
+    padding-top: 115px;
+    padding-left: 90px;
+    @include sp {
+        padding-top: 200px;
+        padding-left: 0%;
+    }
+}
+
+
+.name-icon-wrap {
+    @include sp {
+        width: 100%;
+    }
+}
+.reserve-button {
+    border: 1px solid #707070;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    @include sp {
+        width: 200px;
+        position: absolute;
+        left: 100px;
+    }
+}
+.reserve-button:hover{
+    transition-duration: 0.3s;
+    background-color: gray;
+}
+.reserve-button:active{
+    background-color: #ffffff;
+}
+.reserve-button a:hover{
+    transition-duration: 1s;
+    transform: scale(1.15);
+}
+.reserve-button a:active{
+    color: #ffffff;
+}
+.shop-name-part div {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+

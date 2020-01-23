@@ -1,0 +1,170 @@
+.menu-name-wrap {
+    display: flex;
+    @include tab {
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+}
+.menu-name {
+    height: 24px;
+    font-size: 24px;
+    color: #707070;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    @include tab {
+        font-size: 18px;
+    }
+}
+.menu-border {
+    border-top: 1px solid #707070;
+    width: 120px;
+    margin: 15px;
+}
+
+.menu-wrap {
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    @include sp {
+      height: 1750px;
+      display: block;
+      position: relative;
+    }
+    @include tab {
+        height: 2150px;
+        display: block;
+    }
+   
+}
+.outer{
+    height: 271px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+
+    img{
+        width:100%;
+    }
+}
+
+.menu-1-wrap {
+    width: 300px;
+    padding-top: 270px;
+    @include sp {
+        text-align: center;
+        margin: 0 auto;
+    }
+    @include tab {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+.img-1-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include sp {
+        padding-left: 10px;
+        float: left;
+    }
+}
+.img-1-text {
+    width: 250px;
+    margin: 0 auto;
+    @include sp {
+        padding-left: 10px;
+        float: left;
+    }
+}
+.img-1-price {
+    float: right;
+    padding-top: 30px;
+}
+
+.menu-img2:hover {
+    transform: scale (1.5) rotate (10deg);
+}
+.menu-2-wrap {
+    width: 300px;
+    padding-top: 300px;
+    @include sp {
+        margin: 0 auto;
+    }
+    @include tab {
+        padding-top:100px ;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+    .img-2-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include sp {
+    padding-left:10px;
+    float: left;
+    }
+}
+.img-2-text {
+    width: 250px;
+    margin: 0 auto;    
+    @include sp {
+        padding-left: 10px;
+        float: left;
+    }
+}
+.img-2-price {
+    float: right;
+    padding-top: 30px; 
+}
+
+.menu-3-wrap {
+    width: 300px;
+    padding-top: 300px;
+    @include tab {
+        padding-top:100px ;
+        padding-right: 0%;
+        margin: 0% auto;
+        text-align: center; 
+    }
+.img-3-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include sp {
+        padding-left: 10px;
+        float: left;
+    }
+}
+.img-3-text {
+    width: 250px;
+    margin: 0 auto;
+    @include sp {
+        padding-left: 10px;
+        float: left;
+    }
+}
+.img-3-price {
+    float: right;
+    padding-top: 30px;
+}
+}
+.menu-img1{
+    &:hover {
+    transform: scale(1.5) rotateZ(10deg)
+    }
+}
+.menu-img2{
+    &:hover{
+
+    transform: scale(1.5) rotateZ(10deg)
+ }
+}
+.menu-img3{
+        &:hover{  
+    transform: scale(1.5) rotateZ(10deg)}
+}
+
+

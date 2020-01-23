@@ -1,0 +1,136 @@
+.first-bgc {
+background-color:#A193861F;
+height: 300px;
+display: flex;
+@include sp { 
+    width: 100%;
+    height: 100px;
+}
+@include tab {
+    width: 100%;
+    height: 150px;
+}
+}
+.access-name {
+    font-size: 24px;
+    color: #707070;
+    margin: 0;
+    padding-top: 240px;
+    padding-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ @include sp {
+    padding-top: 50px;
+    padding-left: 0;
+    font-size: 18px;
+}
+@include tab {
+    padding-top: 50px;
+    padding-left: 0%;
+}
+}
+.access-border {
+    border-bottom:1px solid #707070;
+    width: 100px;
+    height: 285px;
+    margin-left: 15px;
+    @include sp {
+        height: 60px;
+    }
+    @include tab {
+        height: 60px;
+    }
+}
+.second-bgc {
+    background-color: #D0C5BA;
+    width: 600px;
+    height: 504px;
+    @include sp {
+        width: 100%;
+        height: 300px;
+        order: 2;
+    }
+    @include tab {
+        width: 100%;
+        height: 250px;
+    }
+ p {
+    line-height: 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+   padding-left:100px ;
+   font-family: sans-serif;
+   @include sp {
+       width: 100%;
+       padding-left: 25px;
+   }
+   @include tab {
+              width: 100%;
+       padding-left: 25px;
+   }
+}
+.access-title {
+    font-size: 24px;
+    color: #00000038;
+    padding-left:100px;
+    padding-top: 150px;
+    margin: 0%;
+    @include sp {
+        width: 100%;
+        padding-left: 25px;
+        padding-top: 0;
+    }
+    @include tab {
+        width: 100%;
+        padding-left: 25px;
+        padding-top: 0;
+    }
+}
+}
+.map-wrap {
+    display: flex;
+    @include sp {
+         display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    @include tab {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+}
+
+.map {
+    width: 900px;
+    height: 504px;
+    @include sp {
+        width: 100%;
+        height: 300px;
+        order: 1;
+    }
+    @include tab {
+        width: 100%;
+        height: 300px;
+        order: 1;
+    }
+}
+.third-bgc {
+    height: 60px;
+    background-color:#A193861F; 
+    @include sp {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

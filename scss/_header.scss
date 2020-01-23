@@ -1,0 +1,223 @@
+
+.sp-header-nav {
+    visibility: hidden;
+    @include tab {
+        visibility: visible;
+        height: 50px;
+        background-color: #fff;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;        
+    }
+    @include sp {
+        visibility: visible;
+        height: 50px;
+        background-color: #fff;
+        font-size: 25px;
+        padding-top: 20px;
+        padding-left: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+header {
+    @include tab {
+        width: 100%;
+    }
+    @include sp {
+        width: 100%;
+    }
+}
+.sp-wrap {
+    height: 0;
+    width: 100%;
+    @include tab{
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+    }
+    @include sp {
+        display: flex;
+        height: 70px;
+        justify-content: space-between;
+    }
+
+}
+.ham-icon{
+    visibility: hidden;
+}
+.header-nav {
+    display: flex;
+    position:absolute;
+    @include tab {
+        display: none;
+    }
+    @include sp {
+        display: none;
+    }
+}
+.header-logo {
+    margin: 0;
+}
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 18px;
+}
+.header-nav li {
+    padding-left: 20px;
+}
+.header-nav a {
+    text-decoration: none;
+    color:#707070;
+}
+.header-nav a:hover {
+    color: #000000; 
+    text-decoration: underline;
+}
+.main {
+    display: flex;
+    height: 1000px;
+    @include tab {
+        width: 100%;
+        background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        height: 700px;  
+    }
+    @include sp {
+        width: 100%;
+        background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        height: 700px;
+    }
+
+}
+.main-left {
+    width: 50%;
+    @include tab {
+        width: 100%;
+        width: 600px;
+        text-align: center    
+    }
+    @include sp {
+        width: 100%;
+        width: 600px;
+        text-align: center
+    }
+}
+.main-right {
+    height: 100%;
+    width: 50%;
+    background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include tab {
+        width: 100%;
+        background-size: contain;
+        display: none;
+        height: 600px;   
+    }
+    @include sp {
+        width: 100%;
+        background-size: contain;
+        display: none;
+        height: 600px;
+    }
+    
+}
+
+
+.img-top {
+    padding-right: 0px;
+    width:100%;
+    height: 100%;
+    @include tab {
+        width: 100%;
+        height: auto;
+    }
+    @include sp {
+        width: 100%;
+        height: auto;
+    }
+
+}
+.hair-title {
+    font-size: 38px;
+    padding-top: 296px;
+    text-align: center;
+    font-family: 'Gentium Basic', serif;
+    @include tab {
+        margin: 0%;
+        width: 100%;
+        font-size: 30px;
+        color: #FFFFFF;
+        font-family: 'Gentium Basic', serif;
+        position: absolute;
+        top: 100px;
+    }
+    @include sp {
+        margin: 0%;
+        width: 100%;
+        font-size: 30px;
+        color: #FFFFFF;
+        font-family: 'Gentium Basic', serif;
+        position: absolute;
+        top: 100px;
+    }
+}
+.hair-title-e {
+    font-size: 100px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    @include sp {
+        text-align: center;
+        margin: 0%;
+        color: #FFFFFF;
+        height: 50px;
+        width: 100%;
+    }
+    @include tab {
+        color: #FFFFFF;
+        width: 100%;
+        height: 50px;
+        font-size: 60px;
+        position: absolute;
+        top: 250px;
+    }
+}
+
+.concept {
+    padding-left: 10px;
+}
+.body {
+    @include sp {
+        margin: 0%;
+    }
+    @include tab {
+        margin: 0%;
+    }
+}
+.ham-icon {
+    @include sp {
+        visibility: visible;
+        width: 14px;
+        margin-top: 10px;
+    }
+    @include tab {
+        visibility: visible;
+        position: absolute;
+        left: 90%;
+        top: 15px;
+    }
+}
+
+
+     
+    
+
